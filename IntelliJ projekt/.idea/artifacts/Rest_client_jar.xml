@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Rest client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rest_client_jar</output-path>
+    <root id="archive" name="Rest client.jar">
+      <element id="module-output" name="Rest client" />
+    </root>
+  </artifact>
+</component>
