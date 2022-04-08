@@ -11,6 +11,9 @@ public class ParseLogic {
         String[] splittedSource = pageSource.split("\"timestamp\": "); //split source code
         splittedSource = splittedSource[1].split(",");
 
+        if(splittedSource[0].charAt(splittedSource[0].length() - 1) == '}'){
+            splittedSource[0] = splittedSource[0].substring(0, splittedSource[0].length() - 1);
+        }
         return splittedSource[0];
     }
 
